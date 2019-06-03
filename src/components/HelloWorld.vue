@@ -32,7 +32,6 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
   props: {
     msg: String
   }
@@ -41,6 +40,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.hello {
+  text-align: center;
+  float: left;
+  margin-left: 10%;
+  border: 1px solid black;
+  box-shadow: 5px 10px #888888;
+}
 h3 {
   margin: 40px 0 0;
 }
@@ -54,5 +60,8 @@ li {
 }
 a {
   color: #42b983;
+}
+p {
+  padding: 5px;
 }
 </style>
